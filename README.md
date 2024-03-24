@@ -7,14 +7,14 @@ In this guide, we'll embark on the journey of setting up OpenVPN for remote acce
 <img width="452" alt="open-vpn-before-sign-on" src="https://github.com/rasheedjimoh/openvpn/assets/157264080/d73c7e34-d5d8-463e-8431-a049bb9948bf">
 
 
-**Getting Started with Duck DNS:**
+## Getting Started with Duck DNS
 
 Begin by creating an account on Duck DNS and generate a subdomain pointed at your current public IP address.
 
 ![duckdns](https://github.com/rasheedjimoh/openvpn/assets/157264080/cc83670b-1dd3-4b0c-a696-121ca6ef961f)
 
 
-**Configuring Dynamic DNS on pfSense:**
+## Configuring Dynamic DNS on pfSense
 
 Access the pfSense web configurator, navigate to Services, and click on Dynamic DNS. Select Custom as the Service Type. Paste the URL provided by Duck DNS, including the subdomain and token, into the Update URL box. Ensure the result match is set to OK.
 
@@ -37,7 +37,7 @@ In the Package Manager, search for openvpn-client-export and install it. Downloa
 <img width="305" alt="openvpn-connected" src="https://github.com/rasheedjimoh/openvpn/assets/157264080/40368de3-d56d-4624-97ae-94ed3549177e">
 
 
-**Connecting and Verification:**
+## Connecting and Verification
 
 Log in with the username and password created earlier and connect to verify the setup. Confirm connectivity by pinging inbound. Check the status to ensure that inbound and outbound traffic are increasing, indicating a successful connection.
 
