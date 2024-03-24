@@ -1,6 +1,6 @@
 # Set up OpenVPN for Remote Access
 
-**Introduction:**
+## Introduction
 
 In this guide, we'll embark on the journey of setting up OpenVPN for remote access, simplifying the process to ensure seamless connectivity. Utilizing Duck DNS for free dynamic DNS hosted on AWS adds flexibility to our network configuration.
 
